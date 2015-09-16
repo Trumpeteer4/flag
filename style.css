@@ -1,0 +1,95 @@
+/* this is where all of your CSS styles go */
+#bluetop {
+	width: 413px;
+height: 41px;
+background: blue;
+position:relative;
+margin-bottom: 45px;
+z-index:1;}
+
+#bluemid {
+	width: 413px;
+height: 41px;
+background: blue;
+position:relative;
+margin-bottom: 45px;
+z-index:1;}
+
+#bluebot {
+	width: 413px;
+height: 41px;
+background-color: blue;
+position:relative;
+margin-bottom: 45px;
+z-index:1;
+}
+
+#triangle {
+	width: 0;
+	height: 0;
+	border-left: 212px solid red;
+	border-top: 106px solid transparent;
+	border-bottom: 106px solid transparent;
+	position: relative;
+	top: -258px;
+	z-index:2;
+
+}
+#star-five {
+	margin: 25px 0;
+   position: relative;
+left:-190px;
+   top: -47px;
+   display: block;
+   color: white;
+   width: 0px;
+   height: 0px;
+   border-right:  50px solid transparent;
+   border-bottom: 35px  solid white;
+   border-left:   50px solid transparent;
+   -moz-transform:    rotate(35deg);
+   -webkit-transform: rotate(35deg);
+   -ms-transform:     rotate(35deg);
+   -o-transform:      rotate(35deg);}
+   #star-five:before {
+   border-bottom: 40px solid white;
+   border-left: 15px solid transparent;
+   border-right: 15px solid transparent;
+   position: absolute;
+   height: 0;
+   width: 0;
+   top: -22.5px;
+   left: -32.5px;
+   display: block;
+   content: '';
+   -webkit-transform: rotate(-35deg);
+   -moz-transform:    rotate(-35deg);
+   -ms-transform:     rotate(-35deg);
+   -o-transform:      rotate(-35deg);
+
+}
+#star-five:after {
+   position: absolute;
+   display: block;
+   color: white;
+   top: 3px;
+   left: -52px;
+   width: 0px;
+   height: 0px;
+   border-right: 50px solid transparent;
+   border-bottom: 35px solid white;
+   border-left: 50px solid transparent;
+   -webkit-transform: rotate(-70deg);
+   -moz-transform:    rotate(-70deg);
+   -ms-transform:     rotate(-70deg);
+   -o-transform:      rotate(-70deg);
+   content: '';
+}
+
+#container {
+	width: 413px;
+	height: 214px;
+background-color: white;
+	
+}
+
